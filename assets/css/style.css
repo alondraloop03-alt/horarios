@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+}
+
+.bg-login{
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+    135deg,
+    #0f172a,
+    #2563eb
+    );
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-card{
+
+    width:420px;
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(20px);
+
+    border-radius:20px;
+
+    padding:40px;
+
+    color:white;
+
+    box-shadow:
+    0 20px 40px rgba(0,0,0,.2);
+
+}
+
+.login-card h1{
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.login-card p{
+    opacity:.8;
+}
+
+.sidebar{
+
+    width:260px;
+    min-height:100vh;
+
+    background:#0f172a;
+    color:white;
+}
+
+.sidebar h3{
+    padding:20px;
+}
+
+.sidebar a{
+
+    display:block;
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 20px;
+}
+
+.sidebar a:hover{
+    background:#2563eb;
+}
+
+.main-content{
+    flex:1;
+    padding:30px;
+}
+
+.card-dashboard{
+
+    border:none;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.1);
+
+    .table{
+
+background:white;
+
+border-radius:20px;
+
+overflow:hidden;
+
+box-shadow:
+0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.table thead{
+
+background:#0f172a;
+color:white;
+
+}
+
+.table th{
+
+padding:18px;
+
+}
+
+.table td{
+
+padding:15px;
+vertical-align:middle;
+
+}
+
+.btn{
+
+border-radius:12px;
+
+padding:10px 18px;
+
+font-weight:500;
+
+}
+
+.card{
+
+border:none;
+
+border-radius:20px;
+
+box-shadow:
+0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.form-control{
+
+border-radius:12px;
+
+padding:12px;
+
+}
+
+.page-title{
+
+font-size:32px;
+font-weight:700;
+
+margin-bottom:25px;
+
+}
+
+}
